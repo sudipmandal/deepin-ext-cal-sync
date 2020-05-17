@@ -62,7 +62,7 @@ To find the correct Calendar ID
 Execute *deepin-ext-cal-sync* program either from terminal or by double clicking.
 
 ### Note:
-*Currently the program does not run periodically automatically and needs to be run manually to sync the calendars everytime.*
+*Currently the program does not run periodically on its own and needs to be run manually to sync the calendars everytime.*
 
 ## Current System Calendar Limitations
 The following are limitations of the system calendar (dde-calendar) in Deepin v20 beta and are not limitations of the sync program.
