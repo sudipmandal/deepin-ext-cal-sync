@@ -16,7 +16,7 @@ Download the latest zip release (or build from code) and extract to some folder
 
 Find and Edit the config.json file as follows
 
-![alt text](https://sudipmandal.github.io/KYT/deepin-ext-cal-sync-config-sample.png "")
+![alt text](https://sudipmandal.github.io/KYT/deepin-ext-cal-sync-config-sample.png?v=1 "")
 
 
 
