@@ -9,7 +9,7 @@ More calendars will be added in future.
 
 This program may work with other versions of Deepin as well, however it is tested only against v20 beta.
 
-Project is built using .NET Core C# and uses the [Tmds.Dbus](https://github.com/tmds/Tmds.DBus) nuget package to interact from the .NET Core framework to the dbus service.
+Project is built using .NET Core C# and uses the [Tmds.Dbus](https://github.com/tmds/Tmds.DBus) nuget package to interact with the linux dbus service.
 
 ## How to Install:
 A one click installer does not exist yet.
