@@ -14,7 +14,7 @@ Project is built using .NET Core C# and uses the [Tmds.Dbus](https://github.com/
 ## How to Install:
 A one click installer does not exist yet.
 
-Download the latest zip release (or build from code) and extract to some folder
+Download the [latest zip release](https://github.com/sudipmandal/deepin-ext-cal-sync/releases/download/v1.0/deepin-ext-cal-sync.zip) (or build from code) and extract to some folder
 
 Find and Edit the config.json file as follows
 
