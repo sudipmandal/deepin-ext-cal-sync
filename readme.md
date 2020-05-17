@@ -61,6 +61,8 @@ To find the correct Calendar ID
 
 Execute *deepin-ext-cal-sync* program either from terminal or by double clicking.
 
+The program will open a browser authentication dialog the very first time its run, for subsequent runs it will run without any user interaction.
+
 ### Note:
 *Currently the program does not run periodically on its own and needs to be run manually to sync the calendars everytime.*
 
