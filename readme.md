@@ -62,6 +62,12 @@ Execute *deepin-ext-cal-sync* program either from terminal or by double clicking
 ### Note:
 *Currently the program does not run periodically automatically and needs to be run manually to sync the calendars everytime.*
 
+## Current System Calendar Limitations
+The following are limitations of the system calendar (dde-calendar) in Deepin v20 beta and are not limitations of the sync program.
+
+- dde-calendar does not support descriptions, only supports event title
+- dde-calendar does not support attendees
+- dde-calendar is unable to show the title in the calendar view if the event is 30 mins or less
 
 
 ## Contribute/Build From Source :
