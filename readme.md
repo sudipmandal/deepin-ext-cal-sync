@@ -15,7 +15,9 @@ A one click installer does not exist yet.
 Download the latest zip release (or build from code) and extract to some folder
 
 Find and Edit the config.json file as follows
+
 ![alt text](https://sudipmandal.github.io/KYT/deepin-ext-cal-sync-config-sample.png "")
+
 
 
 To get Google Client ID and Secret follow the steps below
