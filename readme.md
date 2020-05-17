@@ -3,7 +3,9 @@
 This project is an attempt to sync external Calendars like Google calendar with Deepin OS v20 beta Calendar ([dde-calendar](https://github.com/linuxdeepin/dde-calendar)).
 Deepin Linux Calendar currently does not have any ability to add external calendars or accounts.
 
-Program currently works only with google calendar. More calendars will be added in future.
+Program currently works only with google calendar and in one direction only Google Cal -> Deepin Cal
+
+More calendars will be added in future.
 
 This program may work with other versions of Deepin as well, however it is tested only against v20 beta.
 
@@ -74,7 +76,7 @@ The following are limitations of the system calendar (dde-calendar) in Deepin v2
 
 ### *Pre-requisite* : 
 
-1. *Deepin OS* : https://www.deepin.org/en/
+1. *Deepin OS (v20)* : https://www.deepin.org/en/
 
 2. *Visual Studio Code*: https://code.visualstudio.com/download
 
