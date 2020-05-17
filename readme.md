@@ -13,9 +13,12 @@ Project is built using .NET Core C# and uses the [Tmds.Dbus](https://github.com/
 A one click installer does not exist yet.
 
 Download the latest zip release (or build from code) and extract to some folder
-Edit the config.json file (Change to duration to sync settings if default is not desired)
 
-For Google Calendar, you would need a google developer Client ID and Secret (steps below to generate)
+Find and Edit the config.json file as follows
+![alt text](https://sudipmandal.github.io/KYT/deepin-ext-cal-sync-config-sample.png "")
+
+
+To get Google Client ID and Secret follow the steps below
 
 - Go To https://console.developers.google.com/cloud-resource-manager?organizationId=0&authuser=0
 - Click Create Project and give a suitable name (eg Deepin-Calendar-Sync) and click create.
@@ -31,7 +34,7 @@ For Google Calendar, you would need a google developer Client ID and Secret (ste
 - Select External
 - Click Create
 - A form should open
-- Fill in the form, put Application name
+- Fill in the Application name leave everything else as is
 - Click save
 - From Left menu select Credentials
 - Click Create Credentials
@@ -41,21 +44,22 @@ For Google Calendar, you would need a google developer Client ID and Secret (ste
 - Click save
 - A dialog containing Client ID and Secret will open
 - Copy the Client ID and Secret
-- Paste them in the config.json file under Providers > Google section
+- Paste them in the config.json file in the appropriate section
 
-Leave the calendarid as primary if you need only your primary google calendar
-If you want some other calendar from your google account, replace with that calendar id
+Leave the CalendarId value as primary to sync the primary calendar
+To sync any other calendar put the appropriate Calendar ID.
 
-To get Calendar ID 
+To find the correct Calendar ID 
 - Go to https://calendar.google.com/calendar/r
 - Click on Settings
 - Open the desired calendar scroll down and copy the calendar id
 
 
-Execute deepin-ext-cal-sync program either from terminal or by double clicking.
+Execute *deepin-ext-cal-sync* program either from terminal or by double clicking.
 
-Currently the program does not run periodically to keep the calendar in sync
-use crontab or similar for that functionality.
+### Note:
+*Currently the program does not run periodically automatically and needs to be run manually to sync the calendars everytime.*
+
 
 
 ## Contribute/Build From Source :
