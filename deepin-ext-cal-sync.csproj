@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>deepin_ext_cal_sync</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3"/>
+    <PackageReference Include="Tmds.DBus" Version="0.8.0"/>
+    <PackageReference Include="Google.Apis.Calendar.v3" Version="1.45.0.1949"/>
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="config.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+  </ItemGroup>
+</Project>

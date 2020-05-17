@@ -1,0 +1,14 @@
+{
+    "DaysToSyncBeforeToday": 5,
+    "DaysToSyncAfterToday": 30,
+    "Providers":
+        {
+            "Google":{
+                "ApplicationName":"Deepin-Calendar-Sync",
+                "ClientId" : "",
+                "ClientSecret": "",
+                "CalendarId":""
+            }
+        }
+    
+}
