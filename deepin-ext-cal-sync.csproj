@@ -5,7 +5,7 @@
     <RootNamespace>deepin_ext_cal_sync</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3"/>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2"/>
     <PackageReference Include="Tmds.DBus" Version="0.8.0"/>
     <PackageReference Include="Google.Apis.Calendar.v3" Version="1.45.0.1949"/>
     
